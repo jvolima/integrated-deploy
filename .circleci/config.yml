@@ -30,7 +30,7 @@ jobs:
       - run:
           command: echo "Build do projeto iniciada às $(date +%r)"
       - discord/status:
-          success_message: "Workflow de #${CIRCLE_SHA1:0:7} iniciado..."
+          success_message: "Goioerê - Paraná, top 1 cidades do Brasil"
 
   test-and-build-backend:
     docker:
@@ -82,7 +82,7 @@ jobs:
       - run:
           command: echo "Build do projeto terminada às $(date +%r)"
       - discord/status:
-          success_message: ":tada: Workflow de #${CIRCLE_SHA1:0:7} terminado com sucesso! São Paulo maior time do Brasil!"
+          success_message: ":tada: Goioerê - Paraná, top 1 cidades do Brasil"
 
 # Workflows: orquestram a ordem dos jobs
 workflows:
